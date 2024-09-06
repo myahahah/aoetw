@@ -71,7 +71,16 @@
               <nuxt-link to="/civs/Teutons">條頓</nuxt-link>、
               <nuxt-link to="/civs/Turks">土耳其</nuxt-link>、
               <nuxt-link to="/civs/Vietnamese">越南</nuxt-link>、
-              <nuxt-link to="/civs/Viking">維京</nuxt-link>。
+              <nuxt-link to="/civs/Viking">維京</nuxt-link>、
+              <nuxt-link to="/civs/Burgundian">勃根地</nuxt-link>、
+              <nuxt-link to="/civs/Sicilians">西西里</nuxt-link>、
+              <nuxt-link to="/civs/Bohemians">波希米亞</nuxt-link>、
+              <nuxt-link to="/civs/Poles">波蘭</nuxt-link>、
+              <nuxt-link to="/civs/Dravidians">達羅毗荼</nuxt-link>、
+              <nuxt-link to="/civs/Bengalis">孟加拉</nuxt-link>、
+              <nuxt-link to="/civs/Roman">羅馬</nuxt-link>、
+              <nuxt-link to="/civs/Armenians">亞美尼亞</nuxt-link>、
+              <nuxt-link to="/civs/Georgians">喬治亞</nuxt-link>。
             </div>
           </div>
         </div>
@@ -86,7 +95,8 @@
               </h4>
               <nuxt-link to="/civs/Bulgarians">保加利亞</nuxt-link>、
               <nuxt-link to="/civs/Magyars">馬扎爾</nuxt-link>、
-              <nuxt-link to="/civs/Tatars">韃靼</nuxt-link>。
+              <nuxt-link to="/civs/Tatars">韃靼</nuxt-link>、
+              <nuxt-link to="/civs/Gurjaras">瞿折羅</nuxt-link>。
             </div>
           </div>
         </div>
@@ -106,6 +116,10 @@
                 to="/techs/age/Imperial_Age"
                 >帝王時代</nuxt-link
               >便宜20%。
+            </li>
+            <li>
+              <nuxt-link to="/civs/Bohemians">波西米亞</nuxt-link
+              >：胡斯派改革將忠誠信仰的黃金成本替換為食物。
             </li>
           </ul>
         </div>
@@ -168,7 +182,7 @@
           <tr>
             <td colspan="2">
               <div class="unititle">
-                <img src="~assets/faith.png" alt="" />
+                <img src="~assets/faith.png" class="img-fluid" alt="" />
               </div>
             </td>
           </tr>
@@ -198,7 +212,13 @@
               <img class="gg" src="~assets/monastery.png" alt="" /><nuxt-link
                 to="/building/Monastery"
                 >修道院</nuxt-link
-              >
+              >、強化教堂
+              </td>
+               </tr>
+          <tr>
+            <td class="unit3">升級所需科技</td>
+            <td class="unit4">
+              虔誠
             </td>
           </tr>
           <tr>
@@ -214,13 +234,13 @@
             <td class="unit3">
               <nuxt-link to="/resource/Gold">黃金</nuxt-link>
             </td>
-            <td class="unit4">1000</td>
+            <td class="unit4">750</td>
           </tr>
           <tr>
             <td class="unit3">
               <nuxt-link to="/resource/Food">食物</nuxt-link>
             </td>
-            <td class="unit4">750</td>
+            <td class="unit4">550</td>
           </tr>
           <tr>
             <td class="unit" colspan="2" style="background-color:#31b0d5;">
